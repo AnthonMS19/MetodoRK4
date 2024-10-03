@@ -1,0 +1,25 @@
+site_name: Metodo-RK4
+site_url: https://AnthonMS19.github.io/Metodo-RK4
+theme:
+  name: readthedocs
+  palette: 
+  scheme: default
+  primary: indigo
+  accent: pink
+
+nav:
+  - Home: index.md
+  - explanation.md
+  - tutorials.md
+  - reference.md
+
+plugins: 
+  - mkdocstrings
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
